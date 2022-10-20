@@ -1,0 +1,20 @@
+.menu{
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+}
+.menu:hover{
+    background-color: rgb(193, 197, 197,0.5);
+}
+.menu--items__p{
+    margin: 0 0 0 20px;
+    
+}
+.menu--items__img{
+    margin: 0 0 0 15px;
+    height: 25px;
+    
+}
+p.menu--items__p{
+    font-size: 15px;
+}

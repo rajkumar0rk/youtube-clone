@@ -1,0 +1,49 @@
+.side-bar{
+    height: 90vh;
+    width:20%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 30px;
+    position: sticky;
+    z-index: 1;
+
+
+    
+}
+.side-bar:hover{
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+/* width */
+.side-bar::-webkit-scrollbar {
+  width:8px;
+}
+
+/* Track */
+.side-bar::-webkit-scrollbar-track {
+ background: #ffffff;
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.side-bar::-webkit-scrollbar-thumb {
+  background: #a5a5a5; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.side-bar::-webkit-scrollbar-thumb:hover {
+  background: #7c7c7c; 
+}
+
+.side-bar__hr{
+  border-color: rgba(214, 214, 214, 0.5);
+}
+
+.side-bar-sub{
+margin: 20px 0 10px 30px;
+font-weight: 500;
+  border-color: #c3c3c3;
+
+}
